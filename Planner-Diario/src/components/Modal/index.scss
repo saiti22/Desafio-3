@@ -1,0 +1,47 @@
+.modal{
+    display: none;
+    position: fixed;
+    left: 30%;
+    right:30%;
+    top: 32%;
+    bottom: 25%;
+    overflow: auto;
+    background-color: white;    
+    z-index: 9999;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    
+    h1{
+        text-align: center; 
+        color: black;       
+        font-size: 1.9rem;
+        font-weight: 600;
+        margin-top: 70px;
+        margin-bottom: 0;
+    }
+
+    p{
+        color: black;
+        font-size: 25px;
+        font-weight: 400;
+        margin-top: 57px;
+    }
+    button{
+        margin-top: 85px;
+        width: 15vw;
+        height: 4.5vw;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+    #yes{
+        margin-left: 0.9vw;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+    }
+    #no{
+        background-color: #0C70F2;
+        color: white;
+        border: none;
+    }
+}
